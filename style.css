@@ -626,9 +626,23 @@ header.moved {
 .hero-btn {
   margin: 32px auto 0;
 }
+.hero-text-cart {
+  position: absolute;
+}
 [data-theme="light"] .hero-btn:hover {
   background: #000;
   color: #fff;
+}
+.text-cart--one{
+  max-width: 316px;
+  left: 109px;
+  top: 113px;
+}
+.text-cart--two{
+  max-width: 307px;
+  right: 100px;
+  top: 314px;
+
 }
 .hero-media {
   max-width: 1158px;
@@ -1655,6 +1669,9 @@ header.moved {
 .work-slide-picture{
   max-width: 100%;
   padding: 0 15px;
+}
+.hero-text-cart {
+ display: none;
 }
 }
 @media (max-width: 400px) {
