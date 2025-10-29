@@ -112,18 +112,24 @@
 
           <div class="hero-mobile-slider mobile-block">
             <div class="hero-media">
-              <img
-                data-src="photo.webp"
-                loading="lazy"
-                src="assets/images/heroMediaMobile.webp"
-                data-light="assets/images/heroMediaMobile.webp"
-                data-dark="assets/images/heroMediaMobile-dark.webp"
-                alt="photo"
-                width="600"
-                height="600"
-                fetchpriority="high"
-                decoding="async"
-              />
+              <picture>
+                <source
+                  srcset="assets/images/heroMediaMobile-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="assets/images/heroMediaMobile.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="assets/images/heroMediaMobile.webp"
+                  alt="photo"
+                  width="600"
+                  height="600"
+                  fetchpriority="high"
+                  decoding="async"
+                />
+              </picture>
             </div>
 
             <div class="hero-swiper swiper">
