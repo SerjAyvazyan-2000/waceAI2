@@ -649,6 +649,11 @@ header.moved {
   position: absolute;
   top: 495px;
 }
+.hero-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .hero-mobile-slider {
   position: relative;
 }

@@ -20,6 +20,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" onload="this.rel='stylesheet'" />
+    <link rel="preload" as="image" href="/assets/images/hero.webp" />
   </head>
   <body>
     <div class="wrapper">
@@ -62,8 +63,6 @@
                 <span class="desktop-block">Регистрация бесплатно</span>
                 <span class="mobile-block">Регистрация</span>
               </button>
-
-             
             </div>
           </div>
         </div>
@@ -106,8 +105,6 @@
                   data-light="assets/images/heroMedia.webp"
                   data-dark="assets/images/heroMedia-dark.webp"
                   alt="photo"
-             
-                  
                 />
               </div>
             </div>
@@ -122,6 +119,10 @@
                 data-light="assets/images/heroMediaMobile.webp"
                 data-dark="assets/images/heroMediaMobile-dark.webp"
                 alt="photo"
+                width="600"
+                height="600"
+                fetchpriority="high"
+                decoding="async"
               />
             </div>
 
