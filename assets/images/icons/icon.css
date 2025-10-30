@@ -19,3 +19,11 @@
   mask-image: url(icon-star.svg);
   -webkit-mask-image: url(icon-star.svg);
 }
+.icon-plus{
+    mask-image: url(iconPlus.svg);
+  -webkit-mask-image: url(iconPlus.svg);
+}
+.icon-arrow-right{
+    mask-image: url(arrowRight.svg);
+  -webkit-mask-image: url(arrowRight.svg);
+}

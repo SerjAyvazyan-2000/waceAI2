@@ -124,4 +124,11 @@ document.querySelectorAll('.menu-list-link').forEach(link => {
 });
 
 
+const tagButtons = document.querySelectorAll('.possibilities-tags button');
 
+tagButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    tagButtons.forEach(b => b.classList.remove('active')); 
+    btn.classList.add('active'); 
+  });
+});
