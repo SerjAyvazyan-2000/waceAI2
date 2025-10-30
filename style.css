@@ -1,4 +1,28 @@
 @import "assets/images/icons/icon.css";
+
+@font-face {
+    font-family:'Inter';
+    src: url('assets/fonts/Inter-Medium.woff2') format('woff2'),
+    local('assets/fonts/Inter-Medium.woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family:'Inter';
+    src: url('assets/fonts/Inter-Regular.woff2') format('woff2'),
+    local('assets/fonts/Inter-Regular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'Inter';
+    src: url('assets/fonts/Inter-SemiBold.woff2') format('woff2'),
+    local('assets/fonts/Inter-SemiBold.woff2');
+    font-weight: 600;
+}
+
+
+
 html,
 body,
 div,
@@ -159,12 +183,8 @@ body {
   padding: 0;
   position: relative;
   height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  font-family: "Inter", sans-serif;
-  background: var(--bg-color);
-  font-display: swap;
+  font-family: "Inter";
+
 }
 
 .G-flex {
