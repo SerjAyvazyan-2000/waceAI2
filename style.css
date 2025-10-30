@@ -1485,14 +1485,18 @@ header.moved {
     margin-left: 10px;
     margin-right: 10px;
   }
+  .hero-mobile-input{
+    position: absolute;
+    bottom: 13px;
+    left: 12px;
+       max-width: 288px;
+    width: 100%;
+  }
   .hero-mobile-input label {
     position: relative;
-    max-width: 288px;
     width: 100%;
     height: 41px;
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
+
   }
   .hero-mobile-input label input {
     border: 1px solid var(--border);

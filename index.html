@@ -15,7 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="preload" as="image" href="/assets/images/heroMedia.webp" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -127,13 +127,23 @@
             </div>
 
             <div class="hero-mobile-cart G-flex">
-              <img
-                loading="lazy"
-                src="assets/images/heroMobileCart.webp"
-                data-light="assets/images/heroMobileCart.webp"
-                data-dark="assets/images/heroMobileCart-dark.webp"
-                alt="photo"
-              />
+              <picture>
+                <source
+                  srcset="assets/images/heroMobileCart-dark.webp"
+                  media="(prefers-color-scheme: dark)"
+                />
+                <source
+                  srcset="assets/images/heroMobileCart.webp"
+                  media="(prefers-color-scheme: light)"
+                />
+                <img
+                  src="assets/images/heroMobileCart.webp"
+                  alt="photo"
+                  width="312"
+                  height="199"
+                  loading="lazy"
+                />
+              </picture>
 
               <div class="hero-mobile-input">
                 <label>
