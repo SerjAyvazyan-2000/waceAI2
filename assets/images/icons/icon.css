@@ -27,3 +27,27 @@
     mask-image: url(arrowRight.svg);
   -webkit-mask-image: url(arrowRight.svg);
 }
+.icon-eos{
+    mask-image: url(eos.svg);
+  -webkit-mask-image: url(eos.svg);
+}
+.icon-search{
+    mask-image: url(search.svg);
+  -webkit-mask-image: url(search.svg);
+}
+.icon-tabler{
+      mask-image: url(tabler.svg);
+  -webkit-mask-image: url(tabler.svg);
+}
+.icon-tabler2{
+        mask-image: url(tabler2.svg);
+  -webkit-mask-image: url(tabler2.svg);
+}
+.icon-burger{
+          mask-image: url(burger.svg);
+  -webkit-mask-image: url(burger.svg);
+}
+.icon-cms{
+           mask-image: url(cms.svg);
+  -webkit-mask-image: url(cms.svg);
+}
