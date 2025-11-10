@@ -1169,6 +1169,7 @@ header.moved {
   max-height: 330px;
 }
 
+
 .slide-descr-titles h4 {
   font-weight: 400;
   font-size: 19.39px;
@@ -1291,6 +1292,60 @@ header.moved {
   bottom: 0;
   z-index: -1;
 }
+
+.work-input {
+  width: 100%;
+  max-width: 257px;
+  position: absolute;
+  bottom: 20px;
+  left: 24px;
+  z-index: 2;
+}
+.work-input label {
+  position: relative;
+  width: 100%;
+  height: 41px;
+}
+.work-input label input {
+  border: 1px solid var(--border);
+  height: 34px !important;
+  border-radius: 87px;
+  width: 100%;
+  padding: 13px 34px 13px 34px;
+  height: 100%;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 11px;
+  color: var(--text-color3);
+  background: var(--main-container2);
+}
+.work-input label .icon-plus {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  font-size: 6px;
+  background: var(--text-color);
+}
+.work-input label a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--bg-color);
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 13px;
+  right: 12px;
+}
+.work-input label a i {
+  background: var(--text-color);
+  font-size: 5px;
+  margin-left: 3px;
+}
+
+
+
 .work-slide-reverse {
   position: relative;
   z-index: 2;
@@ -1335,6 +1390,7 @@ header.moved {
   font-size: 15.57px;
   line-height: 18.69px;
   color: var(--text-color);
+  white-space: nowrap;
 }
 .work-tags-items {
   position: absolute;
