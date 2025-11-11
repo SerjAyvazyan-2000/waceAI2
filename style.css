@@ -596,6 +596,7 @@ header.moved {
 }
 .hero-btn {
   margin: 32px auto 0;
+  max-width: max-content;
 }
 .hero-text-cart {
   position: absolute;
@@ -987,30 +988,30 @@ header.moved {
   gap: 6px;
   z-index: 2;
 }
-.possibilities-tags button {
+.possibilities-tags a {
   padding: 6px 15px;
   background: var(--bg-color3);
   border-radius: 1000px;
   transition: 0.4s;
   color: var(--text-color5);
 }
-.possibilities-tags button:hover {
+.possibilities-tags a:hover {
   background: var(--accent-color);
 }
 
-.possibilities-tags button.active {
+.possibilities-tags a.active {
   background: var(--accent-color);
 }
-[data-theme="light"] .possibilities-tags button:hover {
+[data-theme="light"] .possibilities-tags a:hover {
   color: #fbfbfb;
 }
-[data-theme="dark"] .possibilities-tags button:hover {
+[data-theme="dark"] .possibilities-tags a:hover {
   color: #090911;
 }
-[data-theme="light"] .possibilities-tags button.active {
+[data-theme="light"] .possibilities-tags a.active {
   color: #fbfbfb;
 }
-[data-theme="dark"] .possibilities-tags button.active {
+[data-theme="dark"] .possibilities-tags a.active {
   color: #090911;
 }
 .block-title-icon {
@@ -1224,14 +1225,14 @@ header.moved {
   color: var(--text-color4);
 }
 
-.slide-descr-inputs button {
+.slide-descr-inputs a {
   height: 30px;
   font-size: 9.69px;
   line-height: 12.93px;
   margin-top: 5px;
   width: 100%;
 }
-.slide-descr-inputs button i {
+.slide-descr-inputs a i {
   font-size: 7px;
 }
 .slide-descr-inputs {
@@ -1260,6 +1261,7 @@ header.moved {
   margin-top: 92px;
   width: 100%;
   justify-content: center;
+  position: relative;
 }
 .possibilities-another-item .block-title {
   color: var(--accent-color);
